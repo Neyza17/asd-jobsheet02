@@ -14,7 +14,6 @@ public class MahasiswaMain17 {
     }
 }
 
-// Class Mahasiswa tetap bisa diletakkan setelah main()
 class Mahasiswa {
     String nama;
     String nim;
