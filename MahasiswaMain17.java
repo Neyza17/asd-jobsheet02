@@ -11,6 +11,10 @@ public class MahasiswaMain17 {
         mhs1.ubahKelas("SI 2K");
         mhs1.updateIpk(3.60);
         mhs1.tampilkanInformasi();
+
+        Mahasiswa mhs2 = new Mahasiswa("Annisa Nabila", "2141720160", "TI 2L", 3.25);
+        mhs2.updateIpk(3.30);
+        mhs2.tampilkanInformasi();
     }
 }
 
@@ -20,11 +24,21 @@ class Mahasiswa {
     String kelas;
     double ipk;
 
+    public Mahasiswa() {
+    }
+
+    public Mahasiswa(String nama, String nim, String kelas, double ipk) {
+        this.nama = nama;
+        this.nim = nim;
+        this.kelas = kelas;
+        this.ipk = ipk;
+    }
+
     void tampilkanInformasi() {
         System.out.println("Nama : " + nama);
-        System.out.println("NIM  : " + nim);
-        System.out.println("Kelas: " + kelas);
-        System.out.println("IPK  : " + ipk);
+        System.out.println("NIM : " + nim);
+        System.out.println("Kelas : " + kelas);
+        System.out.println("IPK : " + ipk);
     }
 
     void ubahKelas(String kelasBaru) {
