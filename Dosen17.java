@@ -33,7 +33,7 @@ public class Dosen17 {
 
     public void setStatusAktif(boolean status) {
         this.statusAktif = status;
-        System.out.println("Status aktif dosen " + nama + " telah diperbarui : " + (status ? "Aktif" : "Tidak Aktif"));
+        System.out.println("Status aktif diperbarui : " + (status ? "Aktif" : "Tidak Aktif"));
     }
 
     public int hitungMasaKerja(int thnSkrg) {
@@ -46,6 +46,6 @@ public class Dosen17 {
 
     public void ubahKeahlian(String bidang) {
         this.bidangKeahlian = bidang;
-        System.out.println("Bidang keahlian dosen " + nama + " telah diperbarui : " + bidang);
+        System.out.println("Bidang keahlian diperbarui : " + bidang);
     }
 }
