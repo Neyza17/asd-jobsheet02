@@ -7,15 +7,15 @@ public class DosenMain17 {
         dosen2.tampilInformasi();
 
         dosen2.setStatusAktif(false);
-        System.out.println("Status aktif dosen " + dosen2.nama + " telah diperbarui.");
+        System.out.println("Status aktif telah diperbarui.");
         dosen2.tampilInformasi();
 
         int tahunSekarang = 2025;
         int masaKerja = dosen2.hitungMasaKerja(tahunSekarang);
-        System.out.println("Masa kerja dosen " + dosen2.nama + " adalah " + masaKerja + " tahun.");
+        System.out.println("Masa kerja adalah " + masaKerja + " tahun.");
 
         dosen2.ubahKeahlian("Algoritma dan Struktur Data");
-        System.out.println("Bidang keahlian dosen telah diperbarui.");
+        System.out.println("Bidang keahlian telah diperbarui.");
         dosen2.tampilInformasi();
     }
 }
