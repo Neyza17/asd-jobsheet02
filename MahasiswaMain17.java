@@ -18,5 +18,7 @@ public class MahasiswaMain17 {
         mhs2.tampilkanInformasi();
 
         Mahasiswa17 mhs3 = new Mahasiswa17("Neyza", "244107060119", "SIB 1C", 3.55);
+
+        mhs3.tampilkanInformasi();
     }
 }
